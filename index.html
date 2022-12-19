@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taller Figma</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="icon">icon</div>
+        <div class="logo">logo</div>
+        <div class="menu">menu</div>
+    </header>
+    <main>
+        <h1>Crea tu cuenta CareSwitch</h1>
+        <form action="" class="form" >
+            <input type="text" name="nombre" id="" placeholder="nombre" required  title='El nombre solo debe contener letras' pattern=^\s*[a-zA-Z,\s]+\s*$>
+            <input type="text" name="apellido" id="" placeholder="apellido" required title='El apellido solo debe contener letras' pattern=^\s*[a-zA-Z,\s]+\s*$>
+            <div>
+                <hr>
+            </div>
+            <P>PAÍS O REGIÓN</P>
+            <select name="countries" id="countries" required>
+                <option value="Australia">Australia</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Guinea">Guinea</option>
+                <option value="Letonia">Letonia</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Francia">Francia</option>
+                <option value="España">España</option>
+            </select>
+            <div>
+                <hr>
+            </div>
+            <input type="email" name="email" id="email" placeholder="Email" required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Por favor intruduzca un formato correcto de correo">
+            <input type="password" name="password" id="password" placeholder="Contraseña" required
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Al menos un número, una letra en mayúscula, una letra en minúscula y al menos 8 caracteres">
+            <input type="password" name="co-password" id="co-password" placeholder="Confirmar contraseña" required
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+               
+            <div>
+                <hr>
+            </div>
+            <select name="" id="" >
+                <option value="">+34 (España)</option>
+            </select>
+            <input type="tel" name="tel" id="tel" placeholder="Número de teléfono" required>
+            <div class="privacity">
+                <input type="radio" name="" id="" class="radio" required>
+                <label for="">Acepto la politica de privacidad y publicidad <a href="#">+info</a></label>
+            </div>
+            <input type="submit" value="Registrarse" class="button">
+        </form>
+    </main>
+    <footer>
+        Diseñado por Toni, Valen, Cano y Mati
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: rgb(235, 234, 234);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 10vh;
+    align-items: flex-end;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header div{
+margin-bottom: 0.5vh;
+padding: 1vh;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+input,
+select {
+    margin: 1.5vh;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 95%;
+}
+
+
+  input:valid {
+    border: 2px solid black;
+  }
+
+  input:invalid {
+    border: 2px solid rgb(253, 56, 56);
+  }
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.privacity{
+    display: flex;
+    
+}
+
+.privacity label{
+width: 97vh; 
+margin-left: -3vh; 
+font-size: 13px;
+}
+
+.privacity input{
+    margin: 0;
+}
+
+.button{
+    width: 20vh;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+
+  
+  input:focus:invalid {
+    box-shadow: 0 0 5px 1px red;  }
+
+    input[name="nombre"]::-webkit-input-placeholder {
+        position: relative;
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        transition: 0.3s ease-in-out;
+      }
+      input[name="nombre"]:focus::-webkit-input-placeholder {
+        position: absolute;
+        font-size: small;
+        padding: 0;
+      }
+      
+      input[name="apellido"]::-webkit-input-placeholder {
+        position: relative;
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        transition: 0.3s ease-in-out;
+      }
+      
+      input[name="apellido"]:focus::-webkit-input-placeholder {
+        position: absolute;
+        font-size: small;
+        padding: 0;
+      }
+
+      input[name="email"]::-webkit-input-placeholder {
+        position: relative;
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        transition: 0.3s ease-in-out;
+      }
+      input[name="email"]:focus::-webkit-input-placeholder {
+        position: absolute;
+        font-size: small;
+        padding: 0;
+      }

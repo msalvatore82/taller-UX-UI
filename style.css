@@ -48,7 +48,7 @@ select {
   background: #F2F2F2;
   width: 343px;
   height: 56px;
-  
+
 }
 
 .select {
@@ -90,7 +90,7 @@ footer {
   font-size: 12px;
   line-height: 14px;
   align-items: center;
-  letter-spacing: -0.01em;  
+  letter-spacing: -0.01em;
   color: #333333;
 }
 
@@ -100,7 +100,7 @@ footer {
 
 .radio {
   Width: 24px;
-Height: 24px;
+  Height: 24px;
   background-color: #5D5FEF;
 }
 
@@ -160,6 +160,45 @@ input[name="email"]::-webkit-input-placeholder {
 }
 
 input[name="email"]:focus::-webkit-input-placeholder {
+  position: absolute;
+  font-size: small;
+  padding: 0;
+}
+
+input[name="password"]::-webkit-input-placeholder {
+  position: relative;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+input[name="password"]:focus::-webkit-input-placeholder {
+  position: absolute;
+  font-size: small;
+  padding: 0;
+}
+
+input[name="co-password"]::-webkit-input-placeholder {
+  position: relative;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+input[name="co-password"]:focus::-webkit-input-placeholder {
+  position: absolute;
+  font-size: small;
+  padding: 0;
+}
+
+input[name="tel"]::-webkit-input-placeholder {
+  position: relative;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+input[name="tel"]:focus::-webkit-input-placeholder {
   position: absolute;
   font-size: small;
   padding: 0;
